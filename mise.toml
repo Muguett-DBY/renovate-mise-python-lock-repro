@@ -1,0 +1,7 @@
+[settings]
+lockfile = true
+lockfile_platforms = ["linux-x64", "windows-x64"]
+
+[tools]
+ansible = { version = "latest", expose = ["ansible-core"] }
+"pypi:cowsay" = "6.0"

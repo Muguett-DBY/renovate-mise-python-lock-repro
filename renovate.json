@@ -1,0 +1,25 @@
+{
+  "enabledManagers": [
+    "mise"
+  ],
+  "packageRules": [
+    {
+      "matchManagers": [
+        "mise"
+      ],
+      "matchDepNames": [
+        "ansible"
+      ],
+      "allowedVersions": "14.5.0"
+    },
+    {
+      "matchManagers": [
+        "mise"
+      ],
+      "matchDepNames": [
+        "pypi:cowsay"
+      ],
+      "enabled": false
+    }
+  ]
+}
